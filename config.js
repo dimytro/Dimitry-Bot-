@@ -1,5 +1,5 @@
 global.DeveloperMode = 'false' //true Or false
-global.owner = ['972244668' ] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
+global.owner = ['972244668','900090890'] // Cambia los numeros por tu o tus numeros a los cuales te comtactaran y gestionaras el Bot
 
 
 // Nota: Puedes contactarme si necesitas ayuda con algo al +5219996125657 (este es mi numero personal/real bloqueo personas que no sean temas de la instalación)
