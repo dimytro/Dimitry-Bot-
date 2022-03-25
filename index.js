@@ -9,7 +9,7 @@ CFonts.say('Dimitry\nUwU\nFranshesco', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`arigato por instalar el bot senpai,bot horny`, {
+CFonts.say(`Dimitry Bot,ando horny primer aviso`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
