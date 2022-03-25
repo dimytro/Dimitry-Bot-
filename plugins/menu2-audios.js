@@ -26,6 +26,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🔊 _Fiesta del admin_
 ° ඬ⃟🔊 _Fiesta del admin 2_
 ° ඬ⃟🔊 _Viernes_
+° ඬ⃟🔊 _no chupala_
+° ඬ⃟🔊 _Grito otaku_
 ° ඬ⃟🔊 _Chica lgante_
 ° ඬ⃟🔊 _Baneado_
 ° ඬ⃟🔊 _Feliz navidad_
