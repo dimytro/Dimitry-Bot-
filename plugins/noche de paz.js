@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /|siu navideño||Siu navideño|siunav|Siunav/
+handler.customPrefix = /|siu navideño|Siu navideño|siunav|Siunav/
 handler.command = new RegExp
 module.exports = handler
