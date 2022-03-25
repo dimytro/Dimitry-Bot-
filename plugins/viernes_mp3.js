@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true 
 })
 }
-handler.customPrefix = /fiesta viernes|viernes|Viernes|viernes fiesta/
+handler.customPrefix = /viernes de ahorcar rucas|viernes|Viernes|viernes de/
 handler.command = new RegExp
 module.exports = handler

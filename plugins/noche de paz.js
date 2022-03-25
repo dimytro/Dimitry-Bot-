@@ -8,6 +8,6 @@ type: 'audioMessage',
 ptt: true
 })
 }
-handler.customPrefix = /noche de paz|Noche de paz|Noche de amor|noche de amor|Noche de Paz/
+handler.customPrefix = /siu|siunavideño|Siu|Siunavideño|siunav|Siunav/
 handler.command = new RegExp
 module.exports = handler

@@ -1,5 +1,5 @@
-# JhuszBotV1
-JhuszBot
+# DimitryBot
+Dimitrybot
 INSTALACION TERMUX OPCION 1 (GitHub)
 > termux-setup-storage
 

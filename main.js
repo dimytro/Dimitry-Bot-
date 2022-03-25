@@ -39,7 +39,7 @@ if (!global.DATABASE.data.stats) global.DATABASE.data.stats = {}
 if (!global.DATABASE.data.msgs) global.DATABASE.data.msgs = {}
 if (!global.DATABASE.data.sticker) global.DATABASE.data.sticker = {}
 global.conn = new WAConnection()
-conn.browserDescription = ['Jhusi - Jaashi', 'Firefox', '3.0']
+conn.browserDescription = ['Dimitry - Bot', 'Firefox', '3.0']
 let authFile = `${opts._[0] || 'session'}.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
@@ -121,7 +121,7 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = '┏━━━━━━━━━━━━\n┃──〘 *WELCOME* 〙──\n┃━━━━━━━━━━━━\n┃ *_✨Que onda paps, como las carga? Bienvenido a este grupo chill, espero te guste o sino vete alv :v  🔰_*  \n┃\n┗━━━━━━━━━━━'
+  conn.welcome = '┏━━━━━━━━━━━━\n┃──〘 *WELCOME* 〙──\n┃━━━━━━━━━━━━\n┃ *_✨Que onda papus, como las carga? Bienvenido a este grupo chill, espero te guste o sino vete alv :v  🔰_*  \n┃\n┗━━━━━━━━━━━'
   conn.bye = '┏━━━━━━━━━━━━\n┃──〘 *ADIOS* 〙───\n┃━━━━━━━━━━━━\n┃ ☠ *A pedir pene a otro lado Bv*\n┗━━━━━━━━━━'
   conn.spromote = '@user Bienvenido al olimpo de los dioses 7u7'
   conn.sdemote = '@user Ni modo qlo, pa´la otra será :v'

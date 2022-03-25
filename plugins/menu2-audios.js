@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 *<MENU DE AUDIOS/>*
 - Escribe las palabras/frases tal como estan, no hace falta poner ningun prefijo (#, ., *, etc) 
 
-° ඬ⃟🔊 _Noche de paz_
+° ඬ⃟🔊 _Siu navideño_
 ° ඬ⃟🔊 _Buenos dias_
 ° ඬ⃟🔊 _Audio hentai_
 ° ඬ⃟🔊 _Fiesta del admin_
@@ -34,7 +34,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🔊 _Vete a la vrg_
 ° ඬ⃟🔊 _Hola_
 ° ඬ⃟🔊 _Un pato_
-° ඬ⃟🔊 _Nyanpasu_
+° ඬ⃟🔊 _Chikadance_
 ° ඬ⃟🔊 _Te amo_
 ° ඬ⃟🔊 _Yamete_
 ° ඬ⃟🔊 _Te diagnostico con gay_
@@ -58,7 +58,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ° ඬ⃟🔊 _:c_
 ° ඬ⃟🔊 _a_
 
-*_「 JHUSZ X-X  」_*`.trim()
+*_「 Dimitry -w-  」_*`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
   }
