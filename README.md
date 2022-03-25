@@ -15,7 +15,7 @@ INSTALACION TERMUX OPCION 1 (GitHub)
 
 > git clone https://github.com/dimytro/Dimitry-bot-
 
-> cd JhuszBotV1
+> cd Dimitry-Bot-
 
 > npm install
 
