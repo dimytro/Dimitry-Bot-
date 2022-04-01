@@ -43,17 +43,11 @@ global.APIKeys = { // APIKey Here
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://api.lolhuman.xyz': 'rey2k21'
 }
-
 // Sticker WM
 global.packname = '(☞ﾟ∀ﾟ)☞'
 global.author = 'Dimitry'
-
-
 //global.wait = '*Esperé un momento..*'
-
-
 global.multiplier = 69 // The higher, The harder levelup
-
 let fs = require('fs')
 let chalk = require('chalk')
 let file = require.resolve(__filename)
