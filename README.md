@@ -13,7 +13,7 @@ INSTALACION TERMUX OPCION 1 (GitHub)
 
 > apt install imagemagick -y
 
-> git clone https://github.com/dimytro/Dimitry-bot-
+> git clone https://github.com/dimytro/Dimitry-Bot-
 
 > cd Dimitry-Bot-
 
