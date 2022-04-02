@@ -57,12 +57,12 @@ let menu =`
 ┣ ඬ⃟🔞 _${usedPrefix}nsfwloli_
 ┗━━━━━━━━━━━━━┛`.trim()
 let mentionedJid = [who]
-conn.sendButtonImg(m.chat, pp, menu, '©JHUSZ X-X', '𝕄 𝔼 ℕ 𝕌   ℙ ℝ 𝕀 ℕ ℂ 𝕀 ℙ 𝔸 𝕃', `#menu`, m, false, { contextInfo: { mentionedJid }})   
+conn.sendButtonImg(m.chat, pp, menu, '©Dimitry 7w7', '𝕄 𝔼 ℕ 𝕌   ℙ ℝ 𝕀 ℕ ℂ 𝕀 ℙ 𝔸 𝕃', `#menu`, m, false, { contextInfo: { mentionedJid }})   
 await await await await await await conn.sendFile(m.chat, vn, 'ora.mp3', null, m, true, {
 type: 'audioMessage', 
 ptt: true 
 })}
-handler.command = /^(labiblia)$/i
+handler.command = /^(antojar)$/i
 handler.owner = true
 handler.admin = true
 handler.fail = null

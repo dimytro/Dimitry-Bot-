@@ -230,7 +230,7 @@ let menu =`
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┃ Usar bajo su responsabilidad 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣ ඬ⃟🔞 _${usedPrefix}labiblia_
+┣ ඬ⃟🔞 _${usedPrefix}antojar_
 ┗━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━┓
 ┃ *<EFECTOS PARA NOTAS DE VOZ O AUDIOS/>*

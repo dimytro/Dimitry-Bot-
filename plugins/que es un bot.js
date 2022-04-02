@@ -21,7 +21,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 - 𝐏𝐚𝐫𝐚 𝐯𝐞𝐫 𝐞𝐥 𝐦𝐞𝐧𝐮́ 𝐝𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨𝐬 𝐩𝐮𝐞𝐝𝐞𝐬 𝐮𝐬𝐚𝐫 #menu
 
-*_「 ©Jhusz X-X ͚͜͝͠  」_*`.trim()
+*_「 ©Dimitry-w- ͚͜͝͠  」_*`.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'lp.jpeg', str, m, false, { contextInfo: { mentionedJid }})
   }
