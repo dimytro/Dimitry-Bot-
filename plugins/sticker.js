@@ -9,9 +9,9 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || ''
     if (/webp|image|video/g.test(mime)) {
-      if (/video/g.test(mime)) if ((q.msg || q).seconds > 11) return m.reply('*⚠ El video debe de ser de maximo 7 segundos*')
+      if (/video/g.test(mime)) if ((q.msg || q).seconds > 11) return m.reply('►w◄ El video debe de ser de maximo 7 segundos*')
       let img = await q.download()
-      if (!img) throw `*[ ⚠ ] ️Error vuelva a intentarlo, recuerde responder a la imagen, video o gif con ${usedPrefix + command}*`
+      if (!img) throw `*❰ ⚠️ ❱ ️Error vuelva a intentarlo, recuerde responder a la imagen, video o gif con ${usedPrefix + command}*`
       let out
       try {
         if (/webp/g.test(mime)) out = await webp2png(img)
@@ -24,7 +24,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       }
     } else if (args[0]) {
       if (isUrl(args[0])) stiker = await sticker(false, args[0], global.packname, global.author)
-      else return m.reply('*[ ⚠ ] Link (enlace) invalido...*\n\n*[❗] Inserte un link de una imagen de google en terminación .jpg!*')
+      else return m.reply('*❰ ⚠️ ❱ Link (enlace) invalido...*\n\n*❰ ❗️ ❱ Inserte un link de una imagen de google en terminación .jpg!*')
     }
   } catch (e) {
     console.error(e)
@@ -33,7 +33,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (stiker) await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
       quoted: m
     })
-    else throw `*[ ⚠ ] ️La conversión ha fallado..*\n\n*[❗] Vuelva a intentarlo, responda a una imagen, video o gif con ${usedPrefix + command}*\n\n*[❗] Si el video rebasa los 7 segundos puede dar problemas al crear el sticker*`
+    else throw `*❰ ⚠️ ❱ ️La conversión ha fallado.*\n\n*❰ ❗️ ❱ Vuelva a intentarlo, responda a una imagen, video o gif con ${usedPrefix + command}*\n\n*❰ ❗️ ❱ Si el video rebasa los 7 segundos puede dar problemas al crear el sticker*`
   }
 }
 handler.help = ['stiker ', 'stiker <url>']
